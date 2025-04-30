@@ -1,9 +1,9 @@
-var images = ["HollowKnight1.jfif","HollowKnight2.jfif","HollowKnight3.jfif","HollowKnight4.jfif"];
+var images = ["HollowKnight1.jfif","HollowKnight2.jfif","HollowKnight3.jfif","HollowKnight4.jfif", "Hollow5.jfif", "Hollow6.jfif"];
 
 var i = 0;
 function carousel(){
     document.getElementById("mySlider").src = images[i];
-    if(i == 3){
+    if(i == 5){
         i = -1;
     }
     i++;
